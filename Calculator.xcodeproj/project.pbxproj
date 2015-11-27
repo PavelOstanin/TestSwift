@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EE0CDB411BD4DA1900F2FA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CDB401BD4DA1900F2FA79 /* AppDelegate.swift */; };
-		EE0CDB431BD4DA1900F2FA79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CDB421BD4DA1900F2FA79 /* ViewController.swift */; };
 		EE0CDB461BD4DA1900F2FA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0CDB441BD4DA1900F2FA79 /* Main.storyboard */; };
 		EE0CDB481BD4DA1900F2FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0CDB471BD4DA1900F2FA79 /* Assets.xcassets */; };
 		EE0CDB4B1BD4DA1900F2FA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0CDB491BD4DA1900F2FA79 /* LaunchScreen.storyboard */; };
 		EE0CDB561BD4DA1900F2FA79 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CDB551BD4DA1900F2FA79 /* CalculatorTests.swift */; };
 		EE0CDB611BD4DA1900F2FA79 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CDB601BD4DA1900F2FA79 /* CalculatorUITests.swift */; };
+		EE0CDB6F1BD4DF9800F2FA79 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0CDB6E1BD4DF9800F2FA79 /* CalculatorViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		EE0CDB3D1BD4DA1900F2FA79 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0CDB401BD4DA1900F2FA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE0CDB421BD4DA1900F2FA79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE0CDB451BD4DA1900F2FA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE0CDB471BD4DA1900F2FA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0CDB4A1BD4DA1900F2FA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		EE0CDB5C1BD4DA1900F2FA79 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0CDB601BD4DA1900F2FA79 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		EE0CDB621BD4DA1900F2FA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0CDB6E1BD4DF9800F2FA79 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EE0CDB401BD4DA1900F2FA79 /* AppDelegate.swift */,
-				EE0CDB421BD4DA1900F2FA79 /* ViewController.swift */,
+				EE0CDB6E1BD4DF9800F2FA79 /* CalculatorViewController.swift */,
 				EE0CDB441BD4DA1900F2FA79 /* Main.storyboard */,
 				EE0CDB471BD4DA1900F2FA79 /* Assets.xcassets */,
 				EE0CDB491BD4DA1900F2FA79 /* LaunchScreen.storyboard */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0CDB431BD4DA1900F2FA79 /* ViewController.swift in Sources */,
+				EE0CDB6F1BD4DF9800F2FA79 /* CalculatorViewController.swift in Sources */,
 				EE0CDB411BD4DA1900F2FA79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
